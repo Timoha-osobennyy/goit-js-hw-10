@@ -1,0 +1,88 @@
+/* ==== Сторінка Snackbar обгорнута в клас .snackbar-page ==== */
+.snackbar-page {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8f9fa;
+    color: #212529;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.snackbar-page .container {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
+}
+
+.snackbar-page .main-title {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 2rem;
+}
+
+.snackbar-page .main-title-gradient {
+    color: #4a90e2;
+}
+
+.snackbar-page .back-link {
+    display: inline-block;
+    margin-bottom: 20px;
+    text-decoration: none;
+    color: #007bff;
+    font-weight: 500;
+}
+
+.snackbar-page .back-link:hover {
+    text-decoration: underline;
+}
+
+.snackbar-page .form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.snackbar-page .form label {
+    display: flex;
+    flex-direction: column;
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+.snackbar-page .form input[type='number'] {
+    margin-top: 8px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.snackbar-page .form fieldset {
+    border: none;
+    padding: 0;
+}
+
+.snackbar-page .form legend {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.snackbar-page .form label input[type='radio'] {
+    margin-right: 8px;
+}
+
+.snackbar-page button[type='submit'] {
+    padding: 12px;
+    background-color: #28a745;
+    border: none;
+    color: white;
+    font-size: 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.snackbar-page button[type='submit']:hover {
+    background-color: #218838;
+}
